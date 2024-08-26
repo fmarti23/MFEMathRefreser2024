@@ -12,5 +12,8 @@ conda install jupyter
 Plotly Installation
 conda install -c plotly plotly=5.23.0
 
+Statsmodels
+conda install -c conda-forge statsmodels
+
 Activate jupyter notebook
 jupyter notebook
