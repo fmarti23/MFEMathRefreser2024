@@ -1,0 +1,16 @@
+
+
+Environment creation and installation 
+conda create --name mfe2024 python=3.12 numpy pandas matplotlib plotly scipy -c conda-forge scikit-learn
+
+Activate
+conda activate mfe2024
+
+Jupyter Installation
+conda install jupyter 
+
+Plotly Installation
+conda install -c plotly plotly=5.23.0
+
+Activate jupyter notebook
+jupyter notebook
