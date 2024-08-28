@@ -1,7 +1,10 @@
 
 
 Environment creation and installation 
-conda create --name mfe2024 python=3.12 numpy pandas matplotlib plotly scipy -c conda-forge scikit-learn
+conda create --name mfe2024 python=3.12 numpy pandas matplotlib plotly scipy 
+
+
+-c conda-forge scikit-learn
 
 Activate
 conda activate mfe2024
