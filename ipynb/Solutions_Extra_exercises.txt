@@ -1,0 +1,35 @@
+# Solution to exercise 1
+# Read the initial deposit amount from the user
+initial_deposit = float(input("Enter the initial deposit amount: "))
+
+# Define the interest rate
+interest_rate = 0.04
+
+# Calculate the amount in the savings account after 1 year
+amount_year_1 = initial_deposit * (1 + interest_rate)
+print(f"Amount after 1 year: ${amount_year_1:.2f}")
+
+# Calculate the amount in the savings account after 2 years
+amount_year_2 = amount_year_1 * (1 + interest_rate)
+print(f"Amount after 2 years: ${amount_year_2:.2f}")
+
+# Calculate the amount in the savings account after 3 years
+amount_year_3 = amount_year_2 * (1 + interest_rate)
+print(f"Amount after 3 years: ${amount_year_3:.2f}")
+
+
+
+
+#####################
+
+# Solution to exercise 2
+
+# Read an integer from the user
+number = int(input("Enter an integer: "))
+
+# Determine if the number is even or odd
+if number % 2 == 0:
+    print(f"The number {number} is even.")
+else:
+    print(f"The number {number} is odd.")
+
